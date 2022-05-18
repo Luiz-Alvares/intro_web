@@ -25,4 +25,7 @@ app.get('/usuarios', (request, response) => {
     response.json(usuarios);
 });
 
-app.listen(3000);
+app.get('/usuarios', (request, response) => {
+    const usuariosNovo = usuarios.push
+    response.json(usuarios);
+});
